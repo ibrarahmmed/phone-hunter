@@ -97,7 +97,11 @@ const desplayPhoneDeatail = phone => {
              <h5 class="card-title">Name: ${phone.data.name}</h5>
              <p class="card-text">Brand: ${phone.data.brand}</p>
              <p class="card-text">Release-Date: ${phone.data.releaseDate}</p>
-             <p class="card-text">Main Features: ${phone.data.mainFeatures.sensors}</p>
+             <p class="card-text  ">Main Features:${phone.data.mainFeatures.sensors[0]}${phone.data.mainFeatures.sensors[1]}
+             ${phone.data.mainFeatures.sensors[2]}${phone.data.mainFeatures.sensors[3]}${phone.data.mainFeatures.sensors[4]}
+             ${phone.data.mainFeatures.sensors[5]}${phone.data.mainFeatures.sensors[6]}
+             
+             </p>
              <p class="card-text">Memory: ${phone.data.mainFeatures.memory}</p>
              
             
