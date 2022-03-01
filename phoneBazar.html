@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
     <title>Phone Bazar</title>
 
     <!-- bootstrap link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
 
     <h2 class="text-center mt-5 text-info">Phone Bazar</h2>
@@ -16,27 +19,39 @@
     <!-- search feild  -->
 
     <div class="input-group m-3 w-50 mx-auto ">
-        <input id="search-feild" type="text" class="form-control" placeholder="Search your phone you want.." aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button onclick="searchPhone()" class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
-      </div>
+        <input id="search-feild" type="text" class="form-control" placeholder="Search your phone you want.."
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="searchPhone()" class="btn btn-outline-secondary" type="button"
+            id="search-button">Search</button>
+    </div>
+
+    <!-- error massage -->
+    
+
+    <div id="error-message" class="text-danger text-center">
+        <p>wrong search...!!!</p>
+    </div>
 
 
-       <!-- single phone details  -->
-     <div id="phone-detail" class=" mx-auto  h-75 w-50 shadow  mb-5 bg-body rounded mx-auto"> 
-        
-      </div>
+    <!-- single phone details  -->
+    <div id="phone-detail" class="   h-75 w-50 shadow  mb-5 bg-body rounded mx-auto">
+
+    </div>
 
 
-       <!-- phones search reasult  -->
-       <div id="search-result" class="row row-cols-1 row-cols-md-3 g-5 rounded ">
-          
-       </div>
+    <!-- phones search reasult  -->
+    <div id="search-result" class="row row-cols-1 row-cols-md-3 g-5 rounded ">
 
-   
+    </div>
+
+
 
     <!-- bootstrap script cdn  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <!-- javascprit link  -->
     <script src="phoneBazar.js"></script>
 </body>
+
 </html>
